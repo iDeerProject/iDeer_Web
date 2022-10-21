@@ -1,13 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "iDeer_Web"
+  title: "iDeer"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - team.qmd
 
 format:
   html:
@@ -16,4 +18,7 @@ format:
     toc: true
 
 editor: visual
+
+execute:
+  freeze: auto
 
